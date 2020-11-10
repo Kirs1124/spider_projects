@@ -19,4 +19,5 @@ class EasySpider(CrawlSpider):
         # i['domain_id'] = response.xpath('//input[@id="sid"]/@value').extract()
         # i['name'] = response.xpath('//div[@id="name"]').extract()
         # i['description'] = response.xpath('//div[@id="description"]').extract()
+        print("git已修改")
         return i
